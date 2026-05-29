@@ -1,0 +1,12 @@
+[project]
+name = "pythonproject1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.136.3",
+    "fastapi-users[sqlalchemy]>=15.0.5",
+    "imagekitio>=5.5.2",
+    "python-dotenv>=1.2.2",
+]
